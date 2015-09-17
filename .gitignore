@@ -1,0 +1,16 @@
+# Data
+*.csv
+
+# Compiled Object files
+*.o
+
+# Compiled Dynamic libraries
+*.so
+
+
+# Compiled Static libraries
+*.a
+*~
+
+# executable files
+*.exe
