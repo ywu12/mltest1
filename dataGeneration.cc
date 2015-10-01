@@ -31,14 +31,22 @@ class GenData {
     int Run(int argc, char* argv){
         /*
         argv 1: class number, 2: sample size, 3: dimension, 4: range
+        to be done: rewrite the configuration in a more flexible way
         */
 
         if (argc != PARAMETER_NUM) {
             printf("Parameter number does not match.");
             return 1;
         }
+        class_number = atoi(argv[1]);
+        sample_size = atoi(argv[2]);
+        dimension = atoi(argv[3]);
+        range = atof(argv[4]);
+        float *data = new float[sample_size*class_number][dimension];
 
-        class_number = argv[1];
+        for (int class_idx = 0; class_idx < class_number; i++) {
+            //
+        }
     }
 };
 
