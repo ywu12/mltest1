@@ -15,4 +15,4 @@ namespace random {
 }//namespace random
 }//namespace mltest1
 
-#endif MLTEST1_UTILS_RANDOM_H_
+#endif //MLTEST1_UTILS_RANDOM_H_
