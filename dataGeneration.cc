@@ -53,16 +53,17 @@ class GenData {
             //
             for (int i = 0; i < sample_size; i++){
                 GenSample(data, sample_idx, dimension, class_idx, range);
-                sample_idx += dimension;
+                sample_idx += 1;
             }
         }
         //write
 
         delete [] data;
+        return 0;
     }
 
     void GenSample(double *data, int sample_idx, int dimension, int class_idx, double range){
-        //generate one sample
+        //generate one sample and save it from data[sample_idx*dimension]
     }
 };
 
